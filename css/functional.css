@@ -1,0 +1,44 @@
+.functional {
+    margin-top: 190px;
+}
+
+
+.func_title {
+    max-width: 350px;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.func_parapgraph {
+    max-width: 410px;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.func_span {
+    font-family: 'Bari Sans';
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.func_video {
+    width: 560px;
+
+}
+
+.func_p_video {
+    font-family: 'Abel', sans-serif;
+    font-size: 17px;
+    margin-top: 9px;
+    line-height: 17px;
+}
+
+.func_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

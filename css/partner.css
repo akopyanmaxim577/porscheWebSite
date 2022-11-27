@@ -1,0 +1,77 @@
+.partner {
+    background-color: #191F22;
+    margin-top: 50px;
+}
+
+.partner_class {
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 69px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.partner_blocks {
+    max-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.patrner_block {
+    max-width: 226px;
+    text-align: center;
+}
+
+.patrner_block img{
+    max-width: 189px;
+    margin:  0 auto;
+}
+
+
+
+.partner_title {
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.partner_sub {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    line-height: 31px;
+    color: #DD0000;
+    margin-top: 15px;
+}
+
+.partner_p {
+    font-family: 'Abel',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    margin-top: 43px;
+}
+
+.gallery{
+    background-color: #191F22;
+    padding-top: 85px;
+    padding-bottom: 110px;
+
+}
+
+.gallery_block{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 894px;
+}

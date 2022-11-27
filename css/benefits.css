@@ -1,0 +1,40 @@
+.benefit_title {
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+
+}
+.benefits{
+    margin-top: 90px;
+}
+
+.ben_p {
+    font-family: 'Abel',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    max-width: 561px;
+    color: #000000;
+
+}
+
+.benefit_block_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit_block{
+    margin-bottom: 80px;
+}
+
+.benefit_block_text img{
+    width: 422px;
+}
+
+.benefit_price{
+    display: flex;
+    gap: 40px;
+    max-width: 670px;
+    margin: 0 auto;
+}

@@ -1,0 +1,23 @@
+.cert_info {
+    text-align: center;
+}
+
+.cert {
+    background-color: #191F22;
+}
+
+.cert_title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+.cert_subtitle {
+    font-family: 'Abel',sans-serif;
+    margin-top: 54px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
