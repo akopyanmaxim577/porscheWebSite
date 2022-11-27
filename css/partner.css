@@ -4,7 +4,7 @@
 }
 
 .partner_class {
-    font-family: 'Bari Sans';
+    font-family: 'Bari Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
@@ -27,9 +27,9 @@
     text-align: center;
 }
 
-.patrner_block img{
+.patrner_block img {
     max-width: 189px;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 
@@ -53,7 +53,7 @@
 }
 
 .partner_p {
-    font-family: 'Abel',sans-serif;
+    font-family: 'Abel', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -62,16 +62,117 @@
     margin-top: 43px;
 }
 
-.gallery{
+.gallery {
     background-color: #191F22;
     padding-top: 85px;
     padding-bottom: 110px;
 
 }
 
-.gallery_block{
+.gallery_block {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 894px;
+}
+
+.cert {
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+.cert_block {
+    max-width: 350px;
+
+}
+
+.cert_info {
+    margin-bottom: 64px;
+}
+
+.cert_title {
+    margin: 21px 0px 24px 0px;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFFFFF;
+
+}
+
+.cert_p {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+
+}
+
+.cert_but {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 11px 38px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.cert_but:hover {
+    background-color: #FFFFFF;
+    color: #DD0000;
+    transition: 0.3s linear;
+
+}
+
+.cert_blocks {
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+.feedback {
+    padding-top: 1px;
+    background-color: #191F22;
+    padding-bottom: 90px;
+}
+
+.h40 {
+    text-align: center;
+
+}
+.mt{
+    margin-top: 90px;
+}
+
+.feed_p {
+    margin-top: 20px;
+    font-family: 'Abel',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.feed_block{
+    max-width: 460px;
+}
+
+
+.span_fed{
+    color: #EE0303;
+    text-decoration: underline;
+}
+
+
+.feed_blocks{
+    display: flex;
+    justify-content: space-between;
 }

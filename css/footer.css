@@ -1,0 +1,70 @@
+.footer_content {
+    padding-top: 25px;
+    border-top: 1px solid #949292;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_title {
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #000000;
+}
+
+.footer_list li {
+
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 31px;
+
+    color: #434343;
+
+}
+
+.footer {
+    margin-top: 45px;
+}
+
+.fa-brands,
+.fa-solid {
+    font-size: 25px;
+    background-color: #313639;
+    padding: 10px;
+    color: white;
+}
+
+.footer_icons {
+    max-width: 195px;
+    display: flex;
+    gap: 10px;
+    row-gap: 0px;
+    flex-wrap: wrap;
+}
+
+.footer_icons a {
+    height: 45px;
+}
+
+
+.footer_rules {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.footer_text_rules {
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: #191F22;
+}

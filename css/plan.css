@@ -1,0 +1,136 @@
+.plan_title {
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 46px;
+    color: #000000;
+}
+
+.plan_info {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.plan {
+    margin-top: 75px;
+}
+
+.plan_subtitle {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 53px;
+}
+
+.plan_content {
+    padding: 0px 51px;
+    text-align: center;
+}
+
+.plan_block {
+    max-width: 264px;
+    height: 293px;
+    border: 1px solid #949292;
+    border-radius: 16px;
+}
+
+.pl {
+    border: 1px solid #EE0303;
+
+}
+
+.plan_title_bl {
+    padding-top: 56px;
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #000000;
+
+}
+
+
+.plan_sub_bl {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.price_plan {
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    color: #000000;
+}
+
+.price_button {
+    font-family: 'Bebas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: red;
+    padding: 8px 23px;
+}
+
+/* Big block */
+.plan_block:nth-child(2) {
+    transform: scale(1.2);
+}
+
+.plan_blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adres_text{
+    max-width: 471px;
+}
+.adres_title {
+    font-family: 'Bari Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    margin-bottom: 54px;
+}
+
+.adres_subtitle {
+    font-family: 'Abel',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+
+    color: #000000;
+}
+
+.address_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addres{
+    margin-top: 160px;
+}
