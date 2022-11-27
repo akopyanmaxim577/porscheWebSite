@@ -4,11 +4,10 @@
     z-index: 5;
     width: 100%;
     height: 723px;
+    overflow: hidden;
 }
 
-.banner_vid {
-    width: 100%;
-}
+
 
 
 
@@ -40,6 +39,8 @@
 
 .banner_title::before {
     content: url(../img/arrow_banner.png);
+    display: inline-block;
+
 }
 
 .banner_text {
@@ -72,4 +73,126 @@
     color: #EE0303;
     background-color: #FFFFFF;
     transition: 0.3s linear;
+}
+
+@media screen and (max-width: 858px) {
+    .banner_content {
+        padding: 132px 100px 0 100px;
+    }
+
+}
+
+@media(max-width:700px) {
+    .banner_sub {
+        font-size: 30px;
+    }
+
+}
+
+@media(max-width:633px) {
+    .banner_sub {
+        font-size: 25px;
+    }
+
+    .banner_title {
+        font-size: 50px;
+    }
+
+    .banner_content {
+        padding: 100px 60px 0 60px;
+    }
+
+    .banner_title::before {
+        transform: scale(0.7);
+        align-items: center;
+    }
+}
+
+@media(max-width:533px) {
+    .banner {
+        height: 612px;
+    }
+}
+
+@media(max-width:494px) {
+    .banner_sub {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .banner_title::before {
+        position: relative;
+        top: 3px;
+        right: -1px;
+        transform: scale(0.8);
+        align-items: center;
+    }
+
+    .banner_list {
+        margin-top: 20px;
+    }
+
+
+    .banner_list li {
+        font-size: 19px;
+        line-height: 34px;
+    }
+
+    .banner_button {
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 17px;
+        background-color: #EE0303;
+        padding: 14px 10px;
+        margin-top: 78px;
+        transition: 0.3s linear;
+    }
+
+    .banner {
+        height: 612px;
+    }
+    .banner_button{
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 467px) {
+    .banner_title {
+        font-size: 35px;
+    }
+
+    .banner_content {
+        padding: 70px 30px 0 30px;
+    }
+
+    .banner_title::before {
+        position: relative;
+        top: 10px;
+        right: -1px;
+        transform: scale(0.6);
+        align-items: center;
+    }
+    .banner {
+        height: 485px;
+    }
+}
+
+@media(max-width:326px) {
+    .banner_content {
+        padding: 70px 15px 0 15px;
+    }
+
+    .banner_list li {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+}
+
+@media(max-width:297px) {
+    .banner_content {
+        padding: 50px 10px 0 10px;
+    }
+
 }
