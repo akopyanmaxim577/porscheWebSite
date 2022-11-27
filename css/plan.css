@@ -1,5 +1,4 @@
 .plan_title {
-    font-family: 'Bari Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
@@ -48,7 +47,6 @@
 
 .plan_title_bl {
     padding-top: 56px;
-    font-family: 'Bari Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 23px;
@@ -69,7 +67,6 @@
 }
 
 .price_plan {
-    font-family: 'Bebas';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
@@ -81,7 +78,7 @@
 }
 
 .price_button {
-    font-family: 'Bebas';
+
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -106,7 +103,6 @@
     max-width: 471px;
 }
 .adres_title {
-    font-family: 'Bari Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
