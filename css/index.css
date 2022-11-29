@@ -149,3 +149,26 @@ h6 {
     width: 50px;
     height: 50px;
 }
+
+@media(max-width:712px){
+    .title_logo{
+        display: none;
+    }
+
+}
+
+@media(max-width:438px){
+    .logo_porsche{
+        width: 34%;
+    }
+    .menu{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media(max-width:323px){
+    .menu{
+        transform: translateY(-8px);
+    }
+}
