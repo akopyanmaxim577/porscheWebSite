@@ -68,6 +68,10 @@
 
 }
 
+.gallery_block img{
+    width: 33%;
+}
+
 .gallery_block {
     justify-content: center;
     display: flex;
