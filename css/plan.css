@@ -101,6 +101,7 @@
 
 .adres_text {
     max-width: 471px;
+    margin: 0 15px;
 }
 
 .adres_title {
@@ -168,36 +169,40 @@
     .plan_content {
         padding: 0px 23px;
     }
-    .plan_block{
+
+    .plan_block {
         height: 261px;
     }
-    .plan_title_bl{
+
+    .plan_title_bl {
         padding-top: 40px;
     }
 }
- 
 
 
-.map_frame{
+
+.map_frame {
     width: 500px;
     height: 387px;
 }
 
 @media(max-width:1029px) {
-    .address_content{
+    .address_content {
         flex-direction: column;
     }
+
     .addres {
         margin-top: 120px;
     }
-    .adres_text{
+
+    .adres_text {
         margin-bottom: 50px;
     }
 }
 
 
-@media(max-width:562px){
-    .map_frame{
+@media(max-width:562px) {
+    .map_frame {
         margin: 0 15px;
         width: 350px;
         height: 257px;
@@ -205,13 +210,22 @@
 }
 
 
-@media(max-width:381){
-    .map_frame{
+@media(max-width:381px) {
+    .map_frame {
         margin: 0 15px;
         width: 250px;
         height: 157px;
     }
+
+    .adres_title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
 }
 
-
-
+@media(max-width:327px) {
+    .map_frame {
+        width: 200px;
+        height: 157px;
+    }
+}
