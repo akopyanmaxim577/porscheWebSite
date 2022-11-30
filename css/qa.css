@@ -28,6 +28,8 @@
     border-radius: 65%;
     color: #FEFEFE;
     display: inline-block;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -62,6 +64,6 @@
         padding: 23px 23px;
         border-radius: 86%;
         color: #FEFEFE;
-        display: inline-block;
+        
     }
 }
