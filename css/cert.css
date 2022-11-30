@@ -15,9 +15,37 @@
 
 .cert_subtitle {
     font-family: 'Abel',sans-serif;
-    margin-top: 54px;
+    margin-top: 34px;
     font-weight: 400;
     font-size: 30px;
     color: #FFFFFF;
 
+}
+
+@media(max-width:826px){
+    .cert_blocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+    .cert_block{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:580px){
+    .cert_subtitle{
+        font-size: 20px;
+    }
+}
+.ww{
+    max-width: 100%;
+}
+
+@media(max-width:295px){
+    .cert_but{
+        font-size: 12px;
+        padding: 12px 21px;
+    }
 }

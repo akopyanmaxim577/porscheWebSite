@@ -2,6 +2,7 @@
     font-size: 30px;
     line-height: 39px;
     color: #000000;
+    margin-bottom: 20px;
 }
 
 .benefits {
@@ -75,5 +76,13 @@
         flex-direction: column;
         gap: 20px;
     }
+
+}
+
+@media(max-width:413px){
+    .benefit_title{
+        font-size: 24px;
+    }
+    
 
 }
