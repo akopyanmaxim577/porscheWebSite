@@ -45,10 +45,19 @@
     background-color: red;
     padding: 14px 21px;
     display: block;
-    max-width: 237px;
+    max-width: 241px;
     margin: 0 auto;
+    transition: 0.3s linear;
     
 }
+
+.qa_button:hover{
+    background-color: #FEFEFE;
+    color: red;
+    transition: 0.3s linear;
+    border: 1px solid red;
+}
+
 
 @media(max-width:346px) {
     .qa_block {
