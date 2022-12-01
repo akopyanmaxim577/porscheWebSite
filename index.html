@@ -10,10 +10,50 @@
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/8f3cfa0950.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <!-- World phone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
     <title>Porsche BOT</title>
 </head>
 
 <body>
+    <div class="modal den" id="mod">
+        <div class="model_content">
+            <img class="close_light" id="m_close" src="./img/close_light.svg" alt="">
+            <img class="m_img" src="./img/modal.webp" alt="">
+            <div class="modal_info">
+                <div class="modal_text">
+                    <h2 class="modal_title">Torne-se um participante
+                        do projeto
+                    </h2>
+                    <p class="modal_p">
+                        Insira os dados para se conectar ao sistema
+
+                    </p>
+                    <form class="form_modal" action="">
+                        <div class="modal_field">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                        </div>
+
+                        <div class="modal_field">
+                            <label class="l3" for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email">
+                        </div>
+                        <div class="modal_field">
+                            <label for="phone">Phone:</label>
+                            <input id="phone" type="tel" name="phone" />
+                        </div>
+                        <button href="#" class="modail_button">Enviar</button>
+                        <p class="modal_price">
+                            Dê uma olhada em nosso site com atenção até o final para entender como ganhar até € 8500
+
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <header class="header">
         <nav class="burger_nav dn" id="main">
             <img src="./img/close.svg" class="close_icon" id="close" alt="">
@@ -45,11 +85,13 @@
                     <img class="menu_icon" id="add" src="./img/fakeMenu.svg" alt="">
                 </div>
             </div>
-            
+
 
         </div>
     </header>
+
     <section class="banner">
+
         <div class="banner_content">
             <div class="banner_text">
                 <h1 class="banner_title">Porsche911 BOT</h1>
@@ -62,8 +104,9 @@
                 <li>Esforço mínimo</li>
                 <li>5000+ vencedores</li>
             </ul>
-            <a href="#" class="banner_button">Build your own</a>
+            <button id="banner_open" class="banner_button">Build your own</button>
         </div>
+
         <video class="banner_vid" src="./img/banner_video.mp4" loop autoplay muted playsinline
             poster="./img/poster.webp"></video>
     </section>

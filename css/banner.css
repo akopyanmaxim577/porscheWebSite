@@ -79,7 +79,8 @@
     .banner_content {
         padding: 132px 100px 0 100px;
     }
-    .banner_vid{
+
+    .banner_vid {
         transform: translateX(-288px);
     }
 
@@ -113,7 +114,7 @@
 
 @media(max-width:533px) {
     .banner {
-        height: 612px;
+        height: 650px;
     }
 }
 
@@ -154,7 +155,8 @@
     .banner {
         height: 612px;
     }
-    .banner_button{
+
+    .banner_button {
         margin-top: 50px;
     }
 
@@ -176,6 +178,7 @@
         transform: scale(0.6);
         align-items: center;
     }
+
     .banner {
         height: 520px;
     }
@@ -190,7 +193,8 @@
         font-size: 15px;
         line-height: 30px;
     }
-    .banner_title{
+
+    .banner_title {
         font-size: 25px;
     }
 
@@ -198,3 +202,182 @@
 
 
 
+
+.model_content{
+    position: absolute;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 21;
+    max-width: 400px;
+    height: 710px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.modal{
+    position: fixed; /* Stay in place */
+    z-index: 20; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+  
+}
+
+
+.den{
+    display: none;
+}
+.deb{
+    display: block;
+    
+}
+
+.m_img {
+    max-width: 400px;
+    fill: white;
+}
+
+
+.modal_title {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+    margin-top: 24px;
+}
+
+
+.modal_p {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+
+.form_modal {
+    margin: 0 15px;
+}
+
+.modal_field label {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #777676;
+}
+
+.modal_field {
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.36);
+    border-radius: 14px;
+    padding: 5px 0px 5px 10px;
+}
+
+.close_light {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    right: 0;
+    margin: 30px 30px 0px 0px;
+}
+
+
+.modal_field input {
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+.modail_button {
+    padding: 13px 0px;
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 14px;
+    width: 100%;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.modail_button:hover {
+    color: #000000;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    border: 0.5px solid black;
+}
+
+input:focus {
+    border-bottom: 1px solid black;
+}
+
+
+
+.modal_price {
+    font-family: 'Abel', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 23px 0px 10px 0px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    display: inline-block;
+    color: #000000;
+}
+
+
+@media(max-width:422px){
+    .model_content,
+    .m_img{
+        width: 300px;
+    }
+    .modal_title{
+        font-size: 15px;
+        line-height: 0px;
+    }
+
+
+    .modal_p{
+        margin-bottom: 15px;
+    }
+
+    .modal_field{
+        padding: 0px 0px 0px 10px;
+        display: flex;
+    }
+    .modal_field label{
+        font-size: 13px;
+    }
+
+    .modal_field input{
+        width: 80%;
+    }
+
+
+
+}
