@@ -105,3 +105,7 @@
         margin: 0 15px;
     }
 }
+
+.footer_list li>a{
+    color: #000000;
+}
