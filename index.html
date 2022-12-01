@@ -15,10 +15,34 @@
 
 <body>
     <header class="header">
+        <nav class="burger_nav dn" id="main">
+            <img src="./img/close.svg" class="close_icon" id="close" alt="">
+            <h2 class="burger_title">Menu</h2>
+            <ul class="menu_list">
+                <li><a href="#func" id="link" class="menu_link">Como funciona o sistema</a></li>
+                <li><a href="#qa" id="link" class="menu_link">Nossos vencedores</a></li>
+                <li><a href="#benefitt" id="link" class="menu_link">Benefits</a></li>
+                <li><a href="#part" id="link" class="menu_link">Nossos parceiros</a></li>
+                <li><a href="#gal" id="link" class="menu_link">Gallery</a></li>
+                <li><a href="#certifk" id="link" class="menu_link">Certifications</a></li>
+            </ul>
+            <div class="footer_icons">
+                <a href="#"><i class="fa-brands fa-viber"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-solid fa-paper-plane"></i></a>
+
+            </div>
+
+        </nav>
         <div class="header_block">
-            <img class="logo_porsche" src="./img/logo.svg" alt="Logo Porsche">
-            <p class="title_logo">PORSCHE911BOT</p>
-            <img class="menu" src="./img/fakeMenu.svg" alt="">
+            <div class="logo_name">
+                <img class="logo_porsche" src="./img/logo.svg" alt="Logo Porsche">
+                <p class="title_logo">PORSCHE911BOT</p>
+            </div>
+            <div class="burger">
+                <img class="menu_icon" id="add" src="./img/fakeMenu.svg" alt="">
+            </div>
+
         </div>
     </header>
     <section class="banner">
@@ -39,7 +63,7 @@
         <video class="banner_vid" src="./img/banner_video.mp4" loop autoplay muted playsinline
             poster="./img/poster.webp"></video>
     </section>
-    <section class="functional">
+    <section class="functional" id="func">
         <div class="container">
             <div class="func_content">
                 <div class="funct_text">
@@ -106,7 +130,7 @@
 
         </div> -->
     </section>
-    <section class="qa">
+    <section class="qa" id="qa">
         <h2 class="swiper_title">Preguntas populares</h2>
         <div class="qa_block">
             <div class="number">
@@ -186,7 +210,7 @@
             Conecte-se conosco
         </a>
     </section>
-    <section class="benefits">
+    <section class="benefits" id="benefitt">
         <div class="container">
             <div class="benefit_block">
                 <h2 class="benefit_title">Integrity in Business Life
@@ -244,7 +268,7 @@
             </div>
         </div>
     </section>
-    <section class="partner">
+    <section class="partner" id="part">
         <h2 class="partner_class">Nossos parceiros
         </h2>
         <div class="partner_blocks">
@@ -280,7 +304,7 @@
         </div>
 
     </section>
-    <section class="gallery">
+    <section class="gallery" id="gal">
         <div class="container">
             <div class="gallery_block">
                 <img src="./img/gallery/718.webp" alt="">
@@ -292,7 +316,7 @@
             </div>
         </div>
     </section>
-    <section class="cert">
+    <section class="cert" id="certifk">
         <div class="container">
             <div class="cert_info">
                 <h2 class="cert_title">Fernando e um parceiro oficial da "Porsche" e investidor

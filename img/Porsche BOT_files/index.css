@@ -131,93 +131,30 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-
-.logo_name {
+.logo_name{
     max-width: 650px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/* Menu */
-.menu_icon {
+.menu_icon{
     width: 50px;
     height: 50px;
     cursor: pointer;
 }
 
-
-.close_icon {
-    margin-left: auto;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 15px;
-    margin-top: 62px;
-}
-
-.burger_nav {
+.burger_nav{
+    
     padding-top: 80px;
     position: fixed;
     z-index: 20;
     display: flex;
     flex-flow: column;
-    background-color: white;
-    width: 100%;
     height: 100%;
-    padding: 0 30px;
+    background-color: white;
     overflow-y: auto;
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 
 }
-
-.burger_nav::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-.burger_title {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    font-family: 'Abel', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size:60px;
-    line-height: 61px;
-    color: #000000;
-    border-bottom: 3px solid black;
-}
-
-
-
-.menu_link {
-    margin-bottom: 40px;
-    display: block;
-    font-family: 'Abel', sans-serif;
-    font-size: 30px;
-    line-height: 38px;
-    color: #000000;
-    padding-bottom: 7px;
-    border-bottom: 1px solid black;
-
-}
-
-.dn {
-    transform: translateX(-100%);
-    transition: 0.3s ease-in-out;
-}
-
-.db {
-    /* display: block; */
-    transform: translateX(0%);
-    transition: 0.3s ease-in-out;
-}
-
-
-
-
 
 .title_logo {
     font-size: 36px;
@@ -232,61 +169,42 @@ h6 {
 
 
 
-@media(max-width:712px) {
-    .title_logo {
+@media(max-width:712px){
+    .title_logo{
         display: none;
     }
 
 }
 
-@media(max-width:585px) {
-    .menu_link {
-        margin-bottom: 30px;
-        font-family: 'Abel', sans-serif;
-        font-size: 20px;
-        padding-bottom: 7px;
+@media(max-width:438px){
+    .logo_porsche{
+        width: 34%;
+    }
+    .menu{
+        width: 35px;
+        height: 35px;
     }
 }
 
-@media(max-width:438px) {
-    .logo_porsche {
-        width: 40%;
-    }
-
-    .menu_icon {
-        width: 35px;
-        height: 35px;
-        transform: translateY(-8px);
-    }
-
-    .close_icon {
-        margin-top: 10px;
-        width: 35px;
-        height: 35px;
-        margin-right: 3px;
-    }
-
-}
-
-@media(max-width:323px) {
-    .menu_icon {
+@media(max-width:323px){
+    .menu{
         transform: translateY(-8px);
     }
 }
 
 @media(max-width:297px) {
-    .menu_icon {
+    .menu{
         transform: translateY(-8px);
         width: 30px;
         height: 30px;
     }
-
+    
 
 }
 
 
 
-.burger_links {
+.burger_links{
     width: 100%;
     height: 100%;
     background-color: white;
