@@ -90,3 +90,17 @@
     }
 }
 
+
+.play_banner{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 25%;
+    left: 36%;
+}
+
+.func_video{
+    margin: 0 15px;
+    position: relative;
+}
+
