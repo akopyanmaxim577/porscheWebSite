@@ -133,10 +133,10 @@ h6 {
 }
 
 .logo_name {
-    max-width: 650px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* Menu */
@@ -222,7 +222,7 @@ h6 {
 .title_logo {
     font-size: 36px;
     color: #000000;
-    margin-left: -81px;
+    
 }
 
 .header {
