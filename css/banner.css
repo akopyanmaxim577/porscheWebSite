@@ -217,6 +217,7 @@
     margin: auto;
     top: 0;
     bottom: 0;
+    overflow-y: auto;
 }
 
 .modal{
@@ -377,6 +378,10 @@ input:focus {
     .modal_field input{
         width: 80%;
     }
+    .model_content{
+        height: 610px;
+    }
+    
 
 
 
