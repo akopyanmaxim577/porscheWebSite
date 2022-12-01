@@ -12,7 +12,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <!-- World phone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <!-- Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <!-- Email.js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    
+
+
     <title>Porsche BOT</title>
 </head>
 
@@ -30,26 +38,26 @@
                         Insira os dados para se conectar ao sistema
 
                     </p>
-                    <form class="form_modal" action="">
+                    <div class="form_modal" action="">
                         <div class="modal_field">
                             <label for="name">Name:</label>
-                            <input type="text" id="name" name="user_name">
+                            <input type="text" id="name" name="user_name" required>
                         </div>
 
                         <div class="modal_field">
                             <label class="l3" for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email">
+                            <input type="email" id="mail" name="user_email" required>
                         </div>
                         <div class="modal_field">
                             <label for="phone">Phone:</label>
-                            <input id="phone" type="tel" name="phone" />
+                            <input id="phone" type="tel" name="phone" required>
                         </div>
-                        <button href="#" class="modail_button">Enviar</button>
+                        <button href="#" class="modail_button" onclick="SendMail()">Enviar</button>
                         <p class="modal_price">
                             Dê uma olhada em nosso site com atenção até o final para entender como ganhar até € 8500
 
                         </p>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,7 +118,7 @@
         <video class="banner_vid" src="./img/banner_video.mp4" loop autoplay muted playsinline
             poster="./img/poster.webp"></video>
     </section>
-    <section class="functional" id="func">
+    <section class="functional" id="func" data-aos="fade-right">
         <div class="container">
             <div class="func_content">
                 <div class="funct_text">
@@ -150,7 +158,7 @@
             </div>
         </div>
     </section>
-    <section class="slider">
+    <section class="slider" data-aos="fade-up">
         <div class="slider_info">
             <h2 class="swiper_title">Nossos vencedores a quem a empresa ja pagou dinheiro
             </h2>
@@ -180,7 +188,7 @@
     </section>
     <section class="qa" id="qa">
         <h2 class="swiper_title">Preguntas populares</h2>
-        <div class="qa_block">
+        <div class="qa_block" data-aos="fade-up">
             <div class="number">
                 <p class="numb">1</p>
             </div>
@@ -194,7 +202,7 @@
                 </p>
             </div>
         </div>
-        <div class="qa_block">
+        <div class="qa_block" data-aos="fade-up">
             <div class="number">
                 <p class="numb">2</p>
             </div>
@@ -210,7 +218,7 @@
                 </p>
             </div>
         </div>
-        <div class="qa_block">
+        <div class="qa_block" data-aos="fade-up">
             <div class="number">
                 <p class="numb">3</p>
             </div>
@@ -223,7 +231,7 @@
                 </p>
             </div>
         </div>
-        <div class="qa_block">
+        <div class="qa_block" data-aos="fade-up">
             <div class="number">
                 <p class="numb">4</p>
             </div>
@@ -237,7 +245,7 @@
                 </p>
             </div>
         </div>
-        <div class="qa_block">
+        <div class="qa_block" data-aos="fade-up">
             <div class="number">
                 <p class="numb">5</p>
             </div>
@@ -260,7 +268,7 @@
     </section>
     <section class="benefits" id="benefitt">
         <div class="container">
-            <div class="benefit_block">
+            <div class="benefit_block" data-aos="fade-right">
                 <h2 class="benefit_title">Integrity in Business Life
                 </h2>
                 <div class="benefit_block_text">
@@ -275,7 +283,7 @@
                     </p>
                 </div>
             </div>
-            <div class="benefit_block">
+            <div class="benefit_block" data-aos="fade-left">
                 <h2 class="benefit_title">Responsibility for Compliance
 
                 </h2>
@@ -295,7 +303,7 @@
 
 
                 </h2>
-                <div class="benefit_block_text ">
+                <div class="benefit_block_text" data-aos="fade-right">
                     <img src="./img/image3.webp" alt="">
                     <p class="ben_p">Porsche rejects all forms of corruption, cartelization, money laundering or any
                         other white-collar crime and does not tolerate any unlawful behavior by employees or other third
@@ -319,7 +327,7 @@
     <section class="partner" id="part">
         <h2 class="partner_class">Nossos parceiros
         </h2>
-        <div class="partner_blocks">
+        <div class="partner_blocks" data-aos="zoom-in-up">
             <div class="patrner_block">
                 <img src="./img/partner1.webp" alt="">
                 <h2 class="partner_title">Fernando Cardoso</h2>
@@ -354,7 +362,7 @@
     </section>
     <section class="gallery" id="gal">
         <div class="container">
-            <div class="gallery_block">
+            <div class="gallery_block" data-aos="fade-down">
                 <img src="./img/gallery/718.webp" alt="">
                 <img src="./img/gallery/911.webp" alt="">
                 <img src="./img/gallery/Cayenne.webp" alt="">
@@ -375,7 +383,7 @@
 
                 </h3>
             </div>
-            <div class="cert_blocks">
+            <div class="cert_blocks" data-aos="fade-right">
                 <div class="cert_block">
                     <img src="./img/gallery/cert1.webp" class="ww" alt="">
                     <h2 class="cert_title">Porsche</h2>
@@ -407,7 +415,7 @@
 
         </h2>
         <div class="container mt">
-            <div class="feed_blocks">
+            <div class="feed_blocks" data-aos="fade-left">
                 <div class="feed_block">
                     <iframe class="frame_size" loading="lazy" src="https://www.youtube.com/embed/sn34wTC1zCY"
                         title="YouTube video player" frameborder="0" loading="lazy"
@@ -439,7 +447,7 @@
         <div class="container">
             <div class="plan_blocks">
                 <div class="plan_block">
-                    <div class="plan_content">
+                    <div class="plan_content" data-aos="fade-right">
                         <h3 class="plan_title_bl">Primeira
                         </h3>
                         <h4 class="plan_sub_bl">Investimento de 70 euros
@@ -450,7 +458,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="plan_block pl">
+                <div class="plan_block pl" data-aos="fade-up">
                     <div class="plan_content">
                         <h3 class="plan_title_bl">Segunda
 
@@ -464,7 +472,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="plan_block">
+                <div class="plan_block" data-aos="fade-left">
                     <div class="plan_content">
                         <h3 class="plan_title_bl">Terceira
                         </h3>
@@ -480,7 +488,7 @@
             </div>
         </div>
     </section>
-    <section class="addres" id="address_company">
+    <section class="addres" id="address_company" data-aos="zoom-in">
         <div class="container">
             <div class="address_content">
                 <div class="adres_text">
@@ -586,8 +594,8 @@
     </footer>
 
 
-
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="./index.js"></script>
 </body>
